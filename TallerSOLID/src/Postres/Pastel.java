@@ -23,22 +23,18 @@ public class Pastel{
         this.precioParcial = 15.55;
     }
     
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
-        return precioFinal;
-    }
 
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
+    }
+    
+    public double getPrecioParcial() {
+    	return precioParcial;
     }
 
     @Override
     public String toString() {
         return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
-    }
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
     }
     
 }
