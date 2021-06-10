@@ -37,6 +37,12 @@ public class Postre{
     public void anadirAderezo(Aderezo aderezo){
         this.getAderezos().add(aderezo);
     }
+    
+    public void quitarAderezo(Aderezo aderezo){
+        if(aderezos.contains(aderezo)){
+            aderezos.remove(aderezo);
+        }
+    }
 
     @Override
     public String toString() {
