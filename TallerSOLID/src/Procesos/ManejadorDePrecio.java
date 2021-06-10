@@ -2,6 +2,7 @@ package Procesos;
 
 import java.util.ArrayList;
 import Adicionales.Aderezo;
+import Postres.Postre;
 public class ManejadorDePrecio {
 	
 	 public double calcularPrecioFinal(Postre Postre){

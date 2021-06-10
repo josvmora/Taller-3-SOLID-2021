@@ -16,16 +16,9 @@ public class Helado extends Postre{
     
     public Helado(String sabor) {
         super(sabor);
+        this.precioParcial= 7.85;
     }
     
-
-    public ArrayList<Aderezo> getAderezos() {
-        return aderezos;
-    }
-    
-    public double getPrecioParcial() {
-    	return precioParcial;
-    }
 
     @Override
     public String toString() {
