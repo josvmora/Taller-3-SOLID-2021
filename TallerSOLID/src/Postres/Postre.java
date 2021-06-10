@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author Viviana Vera Falconi
  */
-public class Postre {
+public class Postre{
     
      private String sabor;
     private double precioParcial;
@@ -45,5 +45,5 @@ public class Postre {
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
-    
+
 }
