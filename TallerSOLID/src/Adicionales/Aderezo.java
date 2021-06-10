@@ -12,7 +12,9 @@ package Adicionales;
 public abstract class Aderezo {
     //MALVAVISCOS,FRUTILLA,CREMA
 	String nombre;
-	public abstract void setNombre(String nombre);
+	public void setNombre(String nombre){
+            this.nombre = nombre;
+        }
 	
 	@Override
 	public String toString() {		

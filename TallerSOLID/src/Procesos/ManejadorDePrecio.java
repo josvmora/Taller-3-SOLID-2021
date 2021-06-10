@@ -2,10 +2,10 @@ package Procesos;
 
 import java.util.ArrayList;
 import Adicionales.Aderezo;
-import Postres.Postre;
+import Postres.*;
 public class ManejadorDePrecio {
 	
-	 public double calcularPrecioFinal(Postre Postre){
+	 public static double calcularPrecioFinal(Postre Postre){
 	        double precioFinal;
 	        double precioParcial=Postre.getPrecioParcial();
 	        ArrayList<Aderezo> aderezos=Postre.getAderezos();

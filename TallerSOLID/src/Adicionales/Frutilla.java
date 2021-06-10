@@ -2,12 +2,8 @@ package Adicionales;
 
 public class Frutilla extends Aderezo{
 	
-	String nombre="Frutilla";
+	public Frutilla(){
+            setNombre("Frutilla");
+        }
 	
-	@Override
-	public void setNombre(String nombre) {
-		this.nombre=nombre;
-		
-	}
-
 }
