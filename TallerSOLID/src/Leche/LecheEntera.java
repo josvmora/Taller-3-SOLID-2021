@@ -7,7 +7,10 @@ package Leche;
 
 import Postres.*;
 
-public abstract class LecheEntera {
-    public abstract void usarHelado();
-    public abstract void usarPastel();
+public class LecheEntera extends Leche{
+    @Override
+    public void usarPostre(Object postre){
+        System.out.println("Usando Leche Entera");
+    }
+    
 }

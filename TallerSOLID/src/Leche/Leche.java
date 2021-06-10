@@ -4,18 +4,12 @@
  * and open the template in the editor.
  */
 package Leche;
-
+import Postres.*;
 /**
  *
- * @author Pedro Mendoza
+ * @author JOSE VIVANCO
  */
-public class LecheDescremada extends Leche {
-    
-    @Override
-    public void usarPostre(Object postre) {
-        System.out.println("Usando leche descremada");
-    }
-
-    
+public abstract class Leche {
+    public abstract void usarPostre(Object postre);
     
 }
